@@ -20,6 +20,7 @@ def kayit_ol():
 def sisteme_giris():
     print("Isim giriniz: ")# if id ile dogurlanirsa giris
     password = print("Sifrenizi Giriniz:")#if sifre suysa kabul
+    print("Soyadinizi Giriniz: ")
     return password
 
 
