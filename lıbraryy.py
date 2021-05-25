@@ -1,38 +1,25 @@
 import random
-ad = 0
-soyad = 0
-password = 0
-def kayit_ol():
-    ad = input("isminiz:\n")
-    soyad = input("Soyad:\n")
-    tel = input('Telefon no :\n')
-    email = input('Email : \n')
-
-    return ad, soyad, tel, email
-
-# ID bilgisi atama     #    no = print(random.randint(1, 100000))
-#    print("ismim"+ ad + "dir")
-#   print(ad +' '+ soyad +' '+ "Oluşturulan ID:"+ No)
-
-
-
-
-def sisteme_giris():
-    print("Isim giriniz: ")# if id ile dogurlanirsa giris
-    password = print("Sifrenizi Giriniz:")#if sifre suysa kabul
-    print("Soyadinizi Giriniz: ")
-    return password
-
-
-
+import modul
 
 
 print("----Kütüphane Yönetim Sistemine Hoşgeldiniz----")
 sorgu = int(input("Sisteme Kayit olmak icin (1) - Sisteme Giris icin (2)\n"))
 if(sorgu == 1):
-    kayit_ol()
-#if(sorgu == 2):
-#    sisteme_giris()
+    modul.kayit_ol()
+if(sorgu == 2):
+    modul.sisteme_giris()
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
