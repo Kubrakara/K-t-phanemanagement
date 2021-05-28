@@ -1,4 +1,4 @@
-"""class musteri():
+class musteri():
     yeni_uye = {}
     ad = ''
     soyad = ''
@@ -10,7 +10,7 @@
     kategori = ''
     uyeler = ''
     new = ''
-"""
+
 def kayit_ol():
     yeni_uye = {}
     for musteri.i in range(0, len(yeni_uye)):
